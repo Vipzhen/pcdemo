@@ -1,0 +1,178 @@
+*{margin:0;padding:0}
+
+html{
+    display:block;
+}
+
+body{
+    margin:0;padding:0;
+    font-size:12px;
+    line-height: 15pt;
+    color:#000000;
+    text-decoration: none;
+    background: url(../img/dl_1.jpg) repeat-x #f7f6f3;
+}
+
+a:visited{
+    color:#000;
+    text-decoration: none;
+}
+
+a:link{
+    color:#000;
+    text-decoration: none;
+}
+
+ul li{
+    list-style: none;
+}
+
+.dl_top{
+    width:930px;
+    height:140px;
+    margin:0 auto;
+}
+
+.dl_top .dl_top_left{
+    width:550px;
+    height:130px;
+    float:left;
+}
+
+.dl_top .dl_top_right{
+    background:url(../img/dl_3.jpg) no-repeat;
+    width:339px;
+    height:136px;
+    float:right;
+    text-align: right;
+    padding:21px 0 0 0;
+}
+
+.zc_middle{
+    width:930px;
+    height: auto;
+    margin:0 auto;
+    background: url(../img/zc_3.jpg) no-repeat left bottom #fff;
+    position: relative;
+}
+
+.zc_middle .middle_top{
+    height:35px;
+    background-color: #f7f7f7;
+    line-height:35px;
+    color:#676767;  
+    box-shadow: 1px 1px 3px 1px #ccc;
+}
+
+.zc_middle .middle_top em{
+    padding:0 10px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.zc_middle .middle_top span{
+    position: absolute;
+    right:-5px;
+    width:200px;
+    height:38px;
+    background: url(../img/register_login.png) right -2px no-repeat;
+}
+
+.zc_middle .middle_footer{
+    padding:3px;
+    margin: 0 0 25px;
+    height:430px;
+    clear: both;
+    box-shadow: 1px 1px 3px 1px #ccc;
+}
+
+.zc_middle .middle_footer .pic{
+    width:300px;
+    height:415px;
+    position: absolute;
+    z-index:0;
+    right:10px;
+    top:71px;
+    overflow: hidden;
+}
+
+.zc_middle .middle_footer .reg{
+    padding:15px 40px 25px 40px;
+}
+
+
+.zc_middle .middle_footer .reg li{
+    margin:15px 0;
+    position: relative;
+}
+
+.zc_middle .middle_footer .reg .txt{
+    height:36px;
+    width:300px;
+    border:1px solid #dedede;
+    text-indent: 40px;
+}
+
+.zc_middle .middle_footer .reg span{
+    line-height: 24px;
+    display: inline-block;
+    width:100px;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+.middle_footer .reg .uname #email{
+    background: url(../img/reg_uname.jpg) 8px center no-repeat;
+    color:#333;
+    position: relative;
+}
+
+.middle_footer .reg .uname #regname{
+    background: url(../img/reg_uname.jpg) 8px center no-repeat;
+    color:#333;
+    position: relative;
+}
+
+.middle_footer .reg .upwd input{
+    background: url(../img/login_upwd.jpg) 8px center no-repeat;
+    color: #333333;
+}
+
+.middle_footer .reg .check #check{
+    height:30px;
+    width:100px;
+    text-indent: 10px;
+}
+
+.middle_footer .reg ul .auto{
+    margin-left: 100px;
+    letter-spacing: 1px;
+}
+
+.middle_footer .reg ul .auto span{
+    width:300px;
+    position: relative;
+    left:5px;
+    top:-2px;
+}
+
+.middle_footer .reg #btnSubmit{
+    width:273px;
+    height: 38px;
+    border: none;
+    display: block;
+    margin: 20px 102px;
+    background: #ff5b01;
+    font-size: 17px;
+    color:#fff;
+    border-radius: 4px;
+}
+
+.zc_footer{
+    width:100%;
+    height: 100%;
+    border-top: 2px #b58158 solid;
+    text-align: center;
+    line-height: 26px;
+    padding-top: 15px;   
+}

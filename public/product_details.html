@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/details.css">
+    
+</head>
+<body>
+    <!-- 顶部导航栏-->
+    <div class="ntbg">
+        <div class="niit" style="clear:both">
+            <div class="niit_1200">
+                <!-- 左边-->
+                <div class="ntit1">
+                您好,欢迎光临酒道网!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;请
+                    <span class="login"><a href="login.html">登录</a></span>
+                    <span class="zuce">
+                        &nbsp;&nbsp;<a href="register.html" style="color:#06f">免费注册</a>&nbsp;&nbsp;
+                        <a class="a_qq" href="#" style="color:#06f">QQ快捷登录</a>
+                    </span>
+                </div>
+                <div class="ntit2">
+                    <!-- 右边-->
+                    <span class="shoucang"><a href="#">收藏本站</a> | </span>
+                    <span><a href="#">企业微博</a> | </span>
+                    <span><a href="#">联系我们</a> | </span>
+                    <span><a href="#" style="color:#f00">我的订单</a></span>
+                </div>
+            </div>
+        </div>
+        <div class="logo" style="clear:both">
+            <!-- 左侧图片-->
+            <div class="logo_l" style="clear: both">
+                <img src="img/logo.jpg" width="296" height="85"/>
+            </div>
+            <!-- 中间搜索框-->
+            <div class="logo_m">
+                <div class="ntb1">
+                    <form action="search.json">
+                        <input type="text" class="input" name="keywords"/>
+                        <input type="submit" name="btnSubmit" value="&nbsp;&nbsp;" style="background: url(../img/ser.jpg); width:105px;height:36px;border:none;"/>
+                    </form>
+                    <div id="dd">
+                        <span>热门搜索:</span>
+                        <span><a href="#" style="color:#ff0000">茅台</a></span>
+                        <span class="xian">|</span>
+                        <span><a href="#">五粮液</a></span>
+                        <span class="xian">|</span>
+                        <span><a href="#">剑南春</a></span>
+                        <span class="xian">|</span>
+                        <span><a href="#">汾酒</a></span>
+                        <span class="xian">|</span>
+                        <span><a href="#">郎酒</a></span>
+                        <span class="xian">|</span>
+                        <span><a href="#">西风</a></span>
+                        <span class="xian">|</span>
+                        <span><a href="#">洋河</a></span>
+                    </div>
+                </div>
+            </div>
+            <!-- 购物车-->
+            <div class="g-min-cart" id="myCart">
+                <span class="total_num">
+                    <b class="total_num_n">0</b>
+                </span>
+                <a name="homepage_toube_gouwc13" href="#" class="cart_link">购物车</a>
+                <div class="g-cart-list hide" id="snCarlist" style="display:none;">
+                    <h3 class="noGoods" id="noGoods">
+                        购物车空空,快去购物吧
+                    </h3>
+                </div>
+            </div>
+            <!-- 右侧图片-->
+            <div class="logo_r">
+                <a href="#"><img src="img/dianhua.jpg" width="197" height="54"/></a>
+            </div>
+        </div>
+    </div>
+    <!-- 第二行导航-->
+    <div class="nlsm"></div>
+    <div class="nav">
+        <div class="nav_m">
+            <img src="img/nav_s.jpg" width="214" height="36" style="float:left;"/>
+            <ul>
+                <li><a href="#" class="color">首页</a></li>
+                <li><a href="javascript:;">白酒</a></li>
+                <li><a href="javascript:;">洋酒</a></li>
+                <li><a href="javascript:;">葡萄酒</a></li>
+                <li><a href="javascript:;">冰酒</a></li>
+                <li><a href="javascript:;">黄酒</a></li>
+                <li><a href="javascript:;">名庄酒</a></li>
+                <li><a href="javascript:;">收藏酒</a></li>
+                <li><a href="javascript:;">生态酒</a></li>
+                <li><a href="javascript:;">酒具</a></li>
+                <li><a href="javascript:;">论坛</a></li>
+                <li><a href="javascript:;">精品推荐</a></li>
+                <li><a href="javascript:;">秒杀专区</a></li>
+                <li><a href="javascript:;">西风专区</a></li>
+            </ul>
+        </div>
+    </div>
+    <div style="clear:both;height:10px;"></div>
+    <!--横幅广告-->
+    <div class="hfgg">
+        <a href="javascript:;">
+            <img src="img2/13829466675654.jpg"   >
+        </a>
+    </div>
+    <div style="clear:both;height:10px;"></div>
+    <!--主要部分-->
+    <div class="main">
+        <!--左侧部分-->
+        <div class="tl">
+            <!--热卖推荐-->
+            <div class="rmtj">
+                <div class="rmtj_top">
+                    <img src="img2/rmtj.gif">
+                </div>
+                <div class="rmtj_bot">
+                    <div class="rmv">
+                        <div class="rmtj_bot0">
+                            <a href="#">
+                                <img src="img2/14110024948698.jpg">
+                            </a>
+                        </div>
+                        <div class="rmtj_bot1">
+                            <div class="rmtj_bot2">
+                                <a href="#">西凤酒幸福52（红色） 45°</a>
+                            </div>
+                            <div class="rmtj_bot3">¥ 128</div>
+                            <div class="rmtj_bot4">
+                                <a href="#">
+                                    <img src="img2/ljgm.gif">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rmv">
+                        <div class="rmtj_bot0">
+                            <a href="#">
+                                <img src="img2/14110020664209.jpg">
+                            </a>
+                        </div>
+                        <div class="rmtj_bot1">
+                            <div class="rmtj_bot2">
+                                <a href="#">西凤酒1956日月藏（红瓶） 45°</a>
+                            </div>
+                            <div class="rmtj_bot3">¥ 208</div>
+                            <div class="rmtj_bot4">
+                                <a href="">
+                                    <img src="img2/ljgm.gif">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rmv">
+                        <div class="rmtj_bot0">
+                            <a href="#">
+                                <img src="img2/14108567395129.jpg">
+                            </a>
+                        </div>
+                        <div class="rmtj_bot1">
+                            <div class="rmtj_bot2">
+                                <a href="#">西凤酒1952金奖二十年 45°</a>
+                            </div>
+                            <div class="rmtj_bot3">¥ 268</div>
+                            <div class="rmtj_bot4">
+                                <a href="">
+                                    <img src="img2/ljgm.gif">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;height:10px;"></div>
+            <!-- 条件搜索栏 -->
+            <div class="crit">
+                <div class="s_crit">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td class="bg">品牌&nbsp;</td>
+                                <td class="bg1"><a href="javascript:;">全部</a></td>
+                                <td class="bg2">
+                                    <a href="javascript:;">茅台</a>
+                                    <a href="javascript:;">五粮液</a>
+                                    <a href="javascript:;">剑南春</a>
+                                    <a href="javascript:;">郎酒</a>
+                                    <a href="javascript:;">国窖1573</a>
+                                    <a href="javascript:;">西凤酒</a>
+                                    <a href="javascript:;">泸州老窖</a>
+                                    <a href="javascript:;">洋河</a>
+                                    <a href="javascript:;">汾酒</a>
+                                    <a href="javascript:;">赖茅</a>
+                                    <a href="javascript:;">太白酒</a>
+                                    <a href="javascript:;">珍酒</a>
+                                    <a href="javascript:;">长安酒</a>
+                                    <a href="javascript:;">轩辕酒</a>
+                                    <a href="javascript:;">终南液</a>
+                                    <a href="javascript:;">湘窖</a>
+                                    <a href="javascript:;">青花瓷</a>
+                                    <a href="javascript:;">秦俑</a>
+                                    <a href="javascript:;">台湾高粱酒</a>
+                                    <a href="javascript:;">老榆林</a>
+                                    <a href="javascript:;">古秦洋</a>
+                                    <a href="javascript:;">水井坊</a>
+                                    <a href="javascript:;">杜康</a>
+                                    <a href="javascript:;">望帝</a>
+                                    <a href="javascript:;">河套酒</a>
+                                    <a href="javascript:;">贵年</a>
+                                    <a href="javascript:;">城古</a>
+                                    <a href="javascript:;">习酒</a>
+                                    <a href="javascript:;">郎凤</a>
+                                    <a href="javascript:;">金昆仑</a>
+                                    <a href="javascript:;">美酒河</a>
+                                    <a href="javascript:;">酒道酒</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="bg">区域&nbsp;</td>
+                                <td class="bg1"><a href="javascript:;">全部</a></td>
+                                <td class="bg2">
+                                    <a href="javascript:;">贵州</a>
+                                    <a href="javascript:;">四川</a>
+                                    <a href="javascript:;">陕西</a>
+                                    <a href="javascript:;">山西</a>
+                                    <a href="javascript:;">江苏</a>
+                                    <a href="javascript:;">湖南</a>
+                                    <a href="javascript:;">台湾</a>
+                                    <a href="javascript:;">河南</a>
+                                    <a href="javascript:;">新疆</a>
+                                    <a href="javascript:;">内蒙古</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="bg">香型&nbsp;</td>
+                                <td class="bg1"><a href="javascript:;">全部</a></td>
+                                <td class="bg2">
+                                    <a href="javascript:;">酱香型</a>
+                                    <a href="javascript:;">浓香型</a>
+                                    <a href="javascript:;">清香型</a>
+                                    <a href="javascript:;">凤香型</a>
+                                    <a href="javascript:;">兼香型</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="bg">场合&nbsp;</td>
+                                <td class="bg1"><a href="javascript:;">全部</a></td>
+                                <td class="bg2">
+                                    <a href="javascript:;">商务用酒</a>
+                                    <a href="javascript:;">婚庆用酒</a>
+                                    <a href="javascript:;">礼节拜访</a>
+                                    <a href="javascript:;">聚会用酒</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="bg">价格&nbsp;</td>
+                                <td class="bg1"><a href="javascript:;">全部</a></td>
+                                <td class="bg2">
+                                    <a href="javascript:;">100-299元</a>
+                                    <a href="javascript:;">300-599元</a>
+                                    <a href="javascript:;">600-999元</a>
+                                    <a href="javascript:;">1000-1999元</a>
+                                    <a href="javascript:;">2000元以上</a>
+                                    <a href="javascript:;">100以下</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="bg">规格&nbsp;</td>
+                                <td class="bg1"><a href="javascript:;">全部</a></td>
+                                <td class="bg2">
+                                    <a href="javascript:;">300ml以下</a>
+                                    <a href="javascript:;">300ml-500ml</a>
+                                    <a href="javascript:;">500ml以上</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="bg">酒精度&nbsp;</td>
+                                <td class="bg1"><a href="javascript:;">全部</a></td>
+                                <td class="bg2">
+                                    <a href="javascript:;">40°以下</a>
+                                    <a href="javascript:;">40°-50°</a>
+                                    <a href="javascript:;">50°以上</a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div style="clear:both;height:10px;"></div>
+            <!-- 排序方式 -->
+            <div class="pxfs">
+                <div class="px1">
+                    <div>排序:</div>
+                    <div>
+                        <a href="#">默认</a>
+                    </div>
+                    <div>
+                        <a href="#">价格排序</a>
+                    </div>
+                    <div>
+                        <a href="#">价格升序</a>
+                    </div>
+                    <div style="width:170px;text-align: right;">共找到相关商品
+                        <span style="color:#ff0000;">196件</span>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;height:10px;"></div>
+            <!-- 下部商品详情 -->
+            <div class="spxq" id="spxq">
+                <div class="sp_box">
+                    <div class="sp0">
+                        <a href="details_list.html"><img src="img2/13504629594833.jpg"></a>
+                    </div>
+                    <div class="sp1">
+                        <center><span>已销82件</span></center>
+                        <a href="#">53度飞天茅台，飞天茅台53度价格</a>
+                    </div>
+                    <div class="sp2">¥ 1050 &nbsp;
+                        <del>¥ 1159</del>
+                    </div>
+                    <div class="sp3">
+                        <button class="minu">-</button>
+                        <span class="text">1</span>
+                        <button class="add">+</button>
+                        <a href="#" class="buy">加入购物车</a>
+                    </div>
+                </div>
+                <div class="sp_box">
+                    <div class="sp0">
+                        <a href="#"><img src="img2/13443359293422.jpg"></a>
+                    </div>
+                    <div class="sp1">
+                        <center><span>已销10件</span></center>
+                        <a href="#">五星茅台 53°</a>
+                    </div>
+                    <div class="sp2">¥ 1589 &nbsp;
+                        <del>¥ 1800</del>
+                    </div>
+                    <div class="sp3">
+                        <button class="minu">-</button>
+                        <span class="text">1</span>
+                        <button class="add">+</button>
+                        <a href="#" class="buy">加入购物车</a>
+                    </div>
+                </div>
+                <div class="sp_box">
+                    <div class="sp0">
+                        <a href="#"><img src="img2/13634027075737.jpg"></a>
+                    </div>
+                    <div class="sp1">
+                        <center><span>已销165件</span></center>
+                        <a href="#">茅台王子酒</a>
+                    </div>
+                    <div class="sp2">¥ 189 &nbsp;
+                        <del>¥ 209</del>
+                    </div>
+                    <div class="sp3">
+                        <button class="minu">-</button>
+                        <span class="text">1</span>
+                        <button class="add">+</button>
+                        <a href="#" class="buy">加入购物车</a>
+                    </div>
+                </div>
+                <div class="sp_box">
+                    <div class="sp0">
+                        <a href="#"><img src="img2/13634029075979.jpg"></a>
+                    </div>
+                    <div class="sp1">
+                        <center><span>已销38件</span></center>
+                        <a href="#">茅台王子酒*酱门经典</a>
+                    </div>
+                    <div class="sp2">¥ 289 &nbsp;
+                        <del>¥ 319</del>
+                    </div>
+                    <div class="sp3">
+                        <button class="minu">-</button>
+                        <span class="text">1</span>
+                        <button class="add">+</button>
+                        <a href="#" class="buy">加入购物车</a>
+                    </div>
+                </div>
+                <div class="sp_box">
+                    <div class="sp0">
+                        <a href="#"><img src="img2/13443291729758.jpg"></a>
+                    </div>
+                    <div class="sp1">
+                        <center><span>已销1件</span></center>
+                        <a href="#">茅台50年</a>
+                    </div>
+                    <div class="sp2">¥ 29800 &nbsp;
+                        <del>¥ 29800</del>
+                    </div>
+                    <div class="sp3">
+                        <button class="minu">-</button>
+                        <span class="text">1</span>
+                        <button class="add">+</button>
+                        <a href="#" class="buy">加入购物车</a>
+                    </div>
+                </div>
+                <div class="sp_box">
+                    <div class="sp0">
+                        <a href="#"><img src="img2/13443289691266.jpg"></a>
+                    </div>
+                    <div class="sp1">
+                        <center><span>已销0件</span></center>
+                        <a href="#">茅台30年</a>
+                    </div>
+                    <div class="sp2">¥ 15800 &nbsp;
+                        <del>¥ 15800</del>
+                    </div>
+                    <div class="sp3">
+                        <button class="minu">-</button>
+                        <span class="text">1</span>
+                        <button class="add">+</button>
+                        <a href="#" class="buy">加入购物车</a>
+                    </div>
+                </div>
+                <div class="sp_box">
+                    <div class="sp0">
+                        <a href="#"><img src="img2/13511468545174.jpg"></a>
+                    </div>
+                    <div class="sp1">
+                        <center><span>已销50件</span></center>
+                        <a href="#">52°水晶盒五粮液</a>
+                    </div>
+                    <div class="sp2">¥ 608 &nbsp;
+                        <del>¥ 1100</del>
+                    </div>
+                    <div class="sp3">
+                        <button class="minu">-</button>
+                        <span class="text">1</span>
+                        <button class="add">+</button>
+                        <a href="#" class="buy">加入购物车</a>
+                    </div>
+                </div>
+                <div class="sp_box">
+                    <div class="sp0">
+                        <a href="#"><img src="img2/13443996414912.jpg"></a>
+                    </div>
+                    <div class="sp1">
+                        <center><span>已销216件</span></center>
+                        <a href="#">五粮液1618 52°</a>
+                    </div>
+                    <div class="sp2">¥ 730 &nbsp;
+                        <del>¥ 898</del>
+                    </div>
+                    <div class="sp3">
+                        <button class="minu">-</button>
+                        <span class="text">1</span>
+                        <button class="add">+</button>
+                        <a href="#" class="buy">加入购物车</a>
+                    </div>
+                </div>
+                <div class="sp_box">
+                    <div class="sp0">
+                        <a href="#"><img src="img2/13444208661434.jpg"></a>
+                    </div>
+                    <div class="sp1">
+                        <center><span>已销243件</span></center>
+                        <a href="#">6年西凤陈酿，西凤六年陈酿酒</a>
+                    </div>
+                    <div class="sp2">¥ 148 &nbsp;
+                        <del>¥ 168</del>
+                    </div>
+                    <div class="sp3">
+                        <button class="minu">-</button>
+                        <span class="text">1</span>
+                        <button class="add">+</button>
+                        <a href="#" class="buy">加入购物车</a>
+                    </div>
+                </div>
+                <div class="sp_box">
+                    <div class="sp0">
+                        <a href="#"><img src="img2/13444214546038.jpg"></a>
+                    </div>
+                    <div class="sp1">
+                        <center><span>已销1623件</span></center>
+                        <a href="#">西安西凤酒，西凤15年陈酿</a>
+                    </div>
+                    <div class="sp2">¥ 269 &nbsp;
+                        <del>¥ 295</del>
+                    </div>
+                    <div class="sp3">
+                        <button class="minu">-</button>
+                        <span class="text">1</span>
+                        <button class="add">+</button>
+                        <a href="#" class="buy">加入购物车</a>
+                    </div>
+                </div>
+                <div class="sp_box">
+                    <div class="sp0">
+                        <a href="#"><img src="img2/13444040883379.jpg"></a>
+                    </div>
+                    <div class="sp1">
+                        <center><span>已销96件</span></center>
+                        <a href="#">五粮液玉酒蓝典</a>
+                    </div>
+                    <div class="sp2">¥ 688 &nbsp;
+                        <del>¥ 798</del>
+                    </div>
+                    <div class="sp3">
+                        <button class="minu">-</button>
+                        <span class="text">1</span>
+                        <button class="add">+</button>
+                        <a href="#" class="buy">加入购物车</a>
+                    </div>
+                </div>
+                <div class="sp_box">
+                    <div class="sp0">
+                        <a href="#"><img src="img2/13444218555902.jpg"></a>
+                    </div>
+                    <div class="sp1">
+                        <center><span>已销98件</span></center>
+                        <a href="#">西凤酒，红西凤55°（活动中）</a>
+                    </div>
+                    <div class="sp2">¥ 580 &nbsp;
+                        <del>¥ 828</del>
+                    </div>
+                    <div class="sp3">
+                        <button class="minu">-</button>
+                        <span class="text">1</span>
+                        <button class="add">+</button>
+                        <a href="#" class="buy">加入购物车</a>
+                    </div>
+                </div>
+                <div class="sp_box">
+                    <div class="sp0">
+                        <a href="#"><img src="img2/13444128872332.jpg"></a>
+                    </div>
+                    <div class="sp1">
+                        <center><span>已销0件</span></center>
+                        <a href="#">古法赖茅三十年</a>
+                    </div>
+                    <div class="sp2">¥ 478 &nbsp;
+                        <del>¥ 588</del>
+                    </div>
+                    <div class="sp3">
+                        <button class="minu">-</button>
+                        <span class="text">1</span>
+                        <button class="add">+</button>
+                        <a href="#" class="buy">加入购物车</a>
+                    </div>
+                </div>
+                <div class="sp_box">
+                    <div class="sp0">
+                        <a href="#"><img src="img2/13442386337083.jpg"></a>
+                    </div>
+                    <div class="sp1">
+                        <center><span>已销89件</span></center>
+                        <a href="#">西凤1956宝石藏</a>
+                    </div>
+                    <div class="sp2">¥ 348 &nbsp;
+                        <del>¥ 368</del>
+                    </div>
+                    <div class="sp3">
+                        <button class="minu">-</button>
+                        <span class="text">1</span>
+                        <button class="add">+</button>
+                        <a href="#" class="buy">加入购物车</a>
+                    </div>
+                </div>
+                <div class="sp_box">
+                    <div class="sp0">
+                        <a href="#"><img src="img2/13443347066704.jpg"></a>
+                    </div>
+                    <div class="sp1">
+                        <center><span>已销0件</span></center>
+                        <a href="#">五粮液60年</a>
+                    </div>
+                    <div class="sp2">¥ 66666 &nbsp;
+                        <del>¥ 68888</del>
+                    </div>
+                    <div class="sp3">
+                        <button class="minu">-</button>
+                        <span class="text">1</span>
+                        <button class="add">+</button>
+                        <a href="#" class="buy">加入购物车</a>
+                    </div>
+                </div>
+                <div class="sp_box">
+                    <div class="sp0">
+                        <a href="#"><img src="img2/13442388395550.jpg"></a>
+                    </div>
+                    <div class="sp1">
+                        <center><span>已销65件</span></center>
+                        <a href="#">西凤1956玉石藏</a>
+                    </div>
+                    <div class="sp2">¥ 198 &nbsp;
+                        <del>¥ 208</del>
+                    </div>
+                    <div class="sp3">
+                        <button class="minu">-</button>
+                        <span class="text">1</span>
+                        <button class="add">+</button>
+                        <a href="#" class="buy">加入购物车</a>
+                    </div>
+                </div>
+                <div class="sp_box">
+                    <div class="sp0">
+                        <a href="#"><img src="img2/13442390881979.jpg"></a>
+                    </div>
+                    <div class="sp1">
+                        <center><span>已销199件</span></center>
+                        <a href="#">西凤1956日月藏</a>
+                    </div>
+                    <div class="sp2">¥ 118 &nbsp;
+                        <del>¥ 138</del>
+                    </div>
+                    <div class="sp3">
+                        <button class="minu">-</button>
+                        <span class="text">1</span>
+                        <button class="add">+</button>
+                        <a href="#" class="buy">加入购物车</a>
+                    </div>
+                </div>
+                <div class="sp_box">
+                    <div class="sp0">
+                        <a href="#"><img src="img2/13468112908004.jpg"></a>
+                    </div>
+                    <div class="sp1">
+                        <center><span>已销65件</span></center>
+                        <a href="#">凤香经典10年45%</a>
+                    </div>
+                    <div class="sp2">¥ 268 &nbsp;
+                        <del>¥ 498</del>
+                    </div>
+                    <div class="sp3">
+                        <button class="minu">-</button>
+                        <span class="text">1</span>
+                        <button class="add">+</button>
+                        <a href="#" class="buy">加入购物车</a>
+                    </div>
+                </div>
+                <div class="sp_box">
+                    <div class="sp0">
+                        <a href="#"><img src="img2/13468113554379.jpg"></a>
+                    </div>
+                    <div class="sp1">
+                        <center><span>已销0件</span></center>
+                        <a href="#">凤香经典10年52%</a>
+                    </div>
+                    <div class="sp2">¥ 288 &nbsp;
+                        <del>¥ 538</del>
+                    </div>
+                    <div class="sp3">
+                        <button class="minu">-</button>
+                        <span class="text">1</span>
+                        <button class="add">+</button>
+                        <a href="#" class="buy">加入购物车</a>
+                    </div>
+                </div>
+                <div class="sp_box">
+                    <div class="sp0">
+                        <a href="#"><img src="img2/13442426849020.jpg"></a>
+                    </div>
+                    <div class="sp1">
+                        <center><span>已销103件</span></center>
+                        <a href="#">凤香经典20年45°</a>
+                    </div>
+                    <div class="sp2">¥ 538 &nbsp;
+                        <del>¥ 638</del>
+                    </div>
+                    <div class="sp3">
+                        <button class="minu">-</button>
+                        <span class="text">1</span>
+                        <button class="add">+</button>
+                        <a href="#" class="buy">加入购物车</a>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;height:10px;"></div>
+            <div class="page">
+                <a href="javascript:;" class="s1">首页</a>
+                <a href="javascript:;" class="s1">上一页</a>
+                <a href="javascript:;" class="curp">1</a>
+                <a href="javascript:;" class="p">2</a>
+                <a href="javascript:;" class="p">3</a>
+                <a href="javascript:;" class="p">4</a>
+                <a href="javascript:;" class="p">5</a>
+                <a href="javascript:;" class="s1">下一页</a>
+                <a href="javascript:;" class="s1">末页</a>
+            </div>
+        </div>
+        <!--右侧部分-->
+        <div class="right">
+            <div class="r1">
+                <div class="r2">您可能感兴趣的商品</div>
+                <div class="r3">
+                    <div class="xq">
+                        <div class="xq0">
+                            <a href="javascript:;">
+                                <img src="img2/13574370547017.jpg">
+                            </a>
+                        </div>
+                        <div class="xq1">
+                            <div class="xq2">
+                                <a href="javascript:;">传世窖池</a>
+                            </div>
+                            <div class="xq3">￥358 </div>
+                            <div class="xq4">已有1人评论</div>
+                        </div>
+                    </div>
+                    <div class="xq">
+                        <div class="xq0">
+                            <a href="javascript:;">
+                                <img src="img2/13444208661434.jpg">
+                            </a>
+                        </div>
+                        <div class="xq1">
+                            <div class="xq2">
+                                <a href="javascript:;">6年西凤陈酿，西凤六年陈</a>
+                            </div>
+                            <div class="xq3">￥148 </div>
+                            <div class="xq4">已有44人评论</div>
+                        </div>
+                    </div>
+                    <div class="xq">
+                        <div class="xq0">
+                            <a href="javascript:;">
+                                <img src="img2/13644573079029.jpg">
+                            </a>
+                        </div>
+                        <div class="xq1">
+                            <div class="xq2">
+                                <a href="javascript:;">52度国窖1573 2010版</a>
+                            </div>
+                            <div class="xq3">￥999 </div>
+                            <div class="xq4">已有0人评论</div>
+                        </div>
+                    </div>
+                    <div class="xq">
+                        <div class="xq0">
+                            <a href="javascript:;">
+                                <img src="img2/13444040883379.jpg">
+                            </a>
+                        </div>
+                        <div class="xq1">
+                            <div class="xq2">
+                                <a href="javascript:;">五粮液玉酒蓝典</a>
+                            </div>
+                            <div class="xq3">￥688 </div>
+                            <div class="xq4">已有19人评论</div>
+                        </div>
+                    </div>
+                    <div class="xq">
+                        <div class="xq0">
+                            <a href="javascript:;">
+                                <img src="img2/13529485155219.jpg">
+                            </a>
+                        </div>
+                        <div class="xq1">
+                            <div class="xq2">
+                                <a href="javascript:;">开国大典60度原浆白酒</a>
+                            </div>
+                            <div class="xq3">￥698 </div>
+                            <div class="xq4">已有2人评论</div>
+                        </div>
+                    </div>
+                    <div class="xq">
+                        <div class="xq0">
+                            <a href="javascript:;">
+                                <img src="img2/13623819483537.jpg">
+                            </a>
+                        </div>
+                        <div class="xq1">
+                            <div class="xq2">
+                                <a href="javascript:;">泸州老窖双喜酒6A</a>
+                            </div>
+                            <div class="xq3">￥68 </div>
+                            <div class="xq4">已有2人评论</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- 页尾-->
+    <div class="footer">
+        <div class="footer_con">
+            <div class="footer_links">
+                <!-- 页尾列表-->
+                <ul>
+                    <li class="links">关于我们</li>
+                    <li>
+                        <a href="#">公司简介</a>
+                    </li>
+                    <li>
+                        <a href="#">联系我们</a>
+                    </li>
+                    <li>
+                        <a href="#">人才战略</a>
+                    </li>
+                    <li>
+                        <a href="#">商家承诺</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="links">购物指南</li>
+                    <li>
+                        <a href="#">用户注册</a>
+                    </li>
+                    <li>
+                        <a href="#">购物指南</a>
+                    </li>
+                    <li>
+                        <a href="#">秒杀规则</a>
+                    </li>
+                    <li>
+                        <a href="#">如何购物</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="links">售后服务</li>
+                    <li>
+                        <a href="#">常见问题</a>
+                    </li>
+                    <li>
+                        <a href="#">客服中心</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="links">配送说明</li>
+                    <li>
+                        <a href="#">关于配送</a>
+                    </li>
+                    <li>
+                        <a href="#">发货说明</a>
+                    </li>
+                    <li>
+                        <a href="#">包装说明</a>
+                    </li>
+                    <li>
+                        <a href="#">运输车队</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="links">支付方式</li>
+                    <li>
+                        <a href="#">支付方式</a>
+                    </li>
+                    <li>
+                        <a href="#">如何退货</a>
+                    </li>
+                    <li>
+                        <a href="#">如何退款</a>
+                    </li>
+                </ul>
+                <a href="#"><img src="img/pic6.jpg" width="270" height="155" class="pic6" style="border:none"/></a>
+                <div class="clear"></div>
+            </div>
+            <!-- 页尾中部-->
+            <div class="footer_qi">
+                <!-- 列表-->
+                <ul>
+                    <li>
+                        <a href="#"><img src="img/tu1.jpg" alt=""/></a>
+                        <span>品牌厂商直供发货</span>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/tu2.jpg" alt=""/></a>
+                        <span>满100 免运费</span>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/tu3.jpg" alt=""/></a>
+                        <span>2000县市 货到付款</span>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/tu4.jpg" alt=""/></a>
+                        <span>多种支付 任您选择</span>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/tu5.jpg" alt=""/></a>
+                        <span>当场验货 货到付款</span>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/tu6.jpg" alt=""/></a>
+                        <span>登门退货 满意到家</span>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/tu7.jpg" alt=""/></a>
+                        <span>全周客服 贴心服务</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="icp">
+                <div class="icp_info">
+                    © （陕西佳泰文化传播有限责任公司旗下）酒道网 版权所有 www.jiudaowang.com 备案号：陕ICP备12007483号　全国统一客服热线:400-065-1919
+                    <br/>
+                    购买前请确认达到法定饮酒年龄！酒道网不销售任何含酒精产品给18岁以下人士！
+                    <br/>
+                </div>
+                <div class="qr_code">
+                    <img src="img/api.png" width="100" height="100"/>
+                    <span style="font-size:14px;">手机扫一扫,更多惊喜哦</span>
+                </div>
+                <div>
+                    <div class="clear"></div>
+                    <div class="pci">&nbsp;
+                        <a href="#"><img src="img/jiudao_302.gif" alt=""/></a>
+                        &nbsp;
+                        <a href="#"><img src="../img/jiudao_304.gif.jpg" alt=""/></a>
+                        &nbsp;
+                        <a href="#"><img src="img/jiudao_306.jpg" alt=""/></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/details.js"></script>
+</body>
+</html>
